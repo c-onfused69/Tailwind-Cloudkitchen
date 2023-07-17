@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud kitchen using Tailwind</title>
+    <link href="../build/css/style.css" rel="stylesheet">
+    <!------KIT SCRIPT------>
+    <script src="https://kit.fontawesome.com/5378eb7cb3.js" crossorigin="anonymous"></script>
+    
+     <!------favicon------>
+     <link rel="icon" type="image/png" href="images/cloud kitchen.png"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="container min-h-screen min-w-full bg-cover bg-center px-28 py-5" style="background-image: url(images/bg.jpg)">
+        <nav class="flex items-center">
+            <img src="images/cloud kitchen LOGO.png" class="w-20 cursor-pointer">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"><a href="#home" class="hidden lg:flex no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-3">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#Products" class="hidden lg:flex no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-3">Products</a></li>
+                <li class="list-none inline-block px-5"><a href="#Partners" class="hidden lg:flex no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-3">Partners</a></li>
+                <li class="list-none inline-block px-5"><a href="#Spotlight" class="hidden lg:flex no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-3">Spotlight</a></li>
+                <li class="list-none inline-block px-5"><a href="#About" class="hidden lg:flex no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-3">About</a></li>
+                <li class="list-none inline-block px-5"><a href="#Contact" class="hidden lg:flex no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-3">Contact</a></li>
+                <li class="list-none inline-block px-5"><a href="#FAQ" class="hidden lg:flex no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-3">FAQ</a></li>
+                <button id="Loginbtn"><li class="list-none inline-block px-5"><a href="#Login" class="hidden lg:flex no-underline text-amber-900 px-2 border-2 rounded border-amber-900 bg-transparent hover:border-amber-950 hover:bg-amber-950 hover:text-amber-100 py-3">Login</a></li></button>
+                
+            </ul>
+            <i class="fa-solid fa-cart-shopping w-8 cursor-pointer hidden lg:flex" style="color: #612f11;"></i>
+
+
+            <!------Mobile Screen------>
+            <div>
+                <button id="sidenavbar" class="fa-solid fa-bars fa-lg lg:hidden focus:outline-none cursor-pointer z-50" style="color: #612F11;"></button>
+            </div>
+            
+
+        </nav>
+
+            
+           
+            <div id="menu" class="lg:hidden bg-amber-100 h-[100vh] absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                <li class="list-none inline-block px-5"><a id="hLink" href="#home" class="no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-5">Home</a></li>
+                <li class="list-none inline-block px-5"><a id="hLink" href="#Products" class="no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-5">Products</a></li>
+                <li class="list-none inline-block px-5"><a id="hLink" href="#Partners" class="no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-5">Partners</a></li>
+                <li class="list-none inline-block px-5"><a id="hLink" href="#Spotlight" class="no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-5">Spotlight</a></li>
+                <li class="list-none inline-block px-5"><a id="hLink" href="#About" class="no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-5">About</a></li>
+                <li class="list-none inline-block px-5"><a id="hLink" href="#Contact" class="no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-5">Contact</a></li>
+                <li class="list-none inline-block px-5"><a id="hLink" href="#FAQ" class="no-underline text-amber-900 px-2 hover:bg-amber-950 hover:text-amber-100 hover:py-5">FAQ</a></li>
+                <button id="Loginbtn"><li class="list-none inline-block px-5"><a href="#Login" class="hidden lg:flex no-underline text-amber-900 px-2 border-2 rounded border-amber-900 bg-transparent hover:border-amber-950 hover:bg-amber-950 hover:text-amber-100 py-3">Login</a></li></button>
+
+                <i class="fa-solid fa-cart-shopping w-8 cursor-pointer" style="color: #612f11;"></i>
+                <!------- <i class="fa-solid fa-xmark fa-lg" style="color: #612f11;"></i>------------>
+                
+                </ul>
+            </div>
+        
+
+        <div>
+            <h1 class="text-amber-900 text-5xl font-bold py-20">Cloud Kitchen</h1>
+            <p class="text-amber-950 text-2xl font-bold pb-10 pr-10">Cloud Kitchen is an online restaurant platform that offers food services to customers for delivery and takeout only. It is a virtual platform where customers can place an order anytime online. The platform is primarily a restaurant kitchen that accepts incoming orders only through online ordering systems and offers no dine-in facility.</p>
+            <button class="bg-amber-900 text-amber-100 px-10 py-3 rounded-full hover:bg-amber-950 hover:text-amber-100">Get Started</button>
+        </div>
+
+    </div>
+
+    <div id="Products" class="container min-h-screen min-w-full bg-cover bg-center px-28 py-5" style="background-color:#D3C2BB"></div>
+
+    <div id="Partners" class="container min-h-screen min-w-full bg-cover bg-center px-28 py-5" style="background-color:#612f11"></div>
+
+    <div id="Spotlight" class="container min-h-screen min-w-full bg-cover bg-center px-28 py-5" style="background-color:#efe7e8"></div>
+
+    <div id="About" class="container min-h-screen min-w-full bg-cover bg-center px-28 py-5" style="background-color:#f0ca99">
+        <h1 class="text-amber-900 text-5xl font-bold py-20">About</h1>
+        <p class="text-warmGray-200 text-2xl font-bold pb-10 pr-10">Welcome to our online restaurant platform! Our mission is to provide you with fresh, delicious food delivered straight to your doorstep. With just a few clicks, you can browse our menu, place your order, and sit back while we take care of the rest. Our team is dedicated to providing the fastest delivery and the best customer service. Thank you for choosing us, and we hope to serve you soon!</p>
+    </div>
+
+    <div id="Contact" class="container min-h-screen min-w-full bg-cover bg-center px-28 py-5" style="background-color:#ebd1b7"></div>
+
+    <div id="FAQ" class="container min-h-screen min-w-full bg-cover bg-center px-28 py-5" style="background-color:#e6d8d5"></div>
+    
+    <!----------Script----------------->
+    <script src="../build/js/script.js"></script>
+    
+    
+</body>
+</html>
